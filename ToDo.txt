@@ -1,0 +1,31 @@
+To Do : 
+
+Deploy to server 
+fix main.js 
+listusers fix
+and case switch authentication login : password/username 
+register :  authentication
+table on css
+error dialog box popup 
+set up my sql server on deployed server 
+
+var matrix1 = [100, 200, 300, 400];
+
+var matrix2 = [500, 600];
+
+
+var storeTemp = 0;
+var storeAnswer = 0;
+var firstline = 0;
+
+
+for (var i = 0; i < matrix1.length; i++) {
+  
+  if(i % 2 == 0){
+    firstline = storeAnswer 
+    storeAnswer = 0
+  }
+  storeTemp = matrix1[i] * matrix2[i % 2] 
+  storeAnswer += storeTemp
+  
+}
